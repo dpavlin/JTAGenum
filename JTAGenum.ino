@@ -69,9 +69,14 @@
  * Arduino Pro: usable digital pins are: 2-12, 14-19 (ANALOG 0-5)
  *	 (0,1 are the serial line, 13 is connected to the LED)
  */
+/*
 byte       pins[] = { 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
 char * pinnames[] = { "DIG_2", "DIG_3", "DIG_4", "DIG_5", "DIG_6",
                       "DIG_7", "DIG_8", "DIG_9", "DIG_10", "DIG_11" };
+*/
+/* mchck setup */
+byte       pins[] = {  5  ,  21 ,  20 ,   6 ,   8 ,   7 ,  14 ,   2  };
+char * pinnames[] = { "D7", "D6", "D5", "D4", "D3", "D2", "D1", "D0" };
 
 // Once you have found the JTAG pins you can define
 // the following to allow for the boundary scan and
